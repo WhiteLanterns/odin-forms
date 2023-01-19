@@ -17,52 +17,58 @@
     </div>
     <div class="signup-container">
         <div class="hero-container">
-            <h1>This is not a real service, dawg! You should already know that, idoit! Now c'mon, let's have some fun!
-            </h1>
+            <div class="hero-text">
+                <h1>This is not a real service, dawg! You should already know that, idoit! Now c'mon, let's have some
+                    fun!</h1>
+            </div>
         </div>
         <div class="form-container">
-            <form action="example.com/<path" method="post">
-                <legend>Let's do this!</legend>
+            <form action="http://httpbin.org/post" method="post">
+                <div class="options-container">
+                    <legend>Let's do this!</legend>
 
-                <fieldset>
-                    <div class="fname">
-                        <label for="first_name">First Name</label>
-                        <input type="text" name="first_name" id="first_name" placeholder="John" required>
-                    </div>
-                    <div class="lname">
-                        <label for="last_name">Last Name</label>
-                        <input type="text" name="last_name" id="last_name" placeholder="Smith" required>
-                    </div>
-                </fieldset>
+                    <fieldset>
+                        <div class="fname">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="John" required>
+                        </div>
+                        <div class="lname">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="Smith" required>
+                        </div>
+                    </fieldset>
 
-                <fieldset>
-                    <div class="email-container">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="you@example.com" required>
-                    </div>
+                    <fieldset>
+                        <div class="email-container">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="you@example.com" required>
+                        </div>
 
-                    <div class="phone-container">
-                        <label for="phone">Phone Number</label>
-                        <input type="number" name="phone" id="phone" required>
-                    </div>
-                </fieldset>
+                        <div class="phone-container">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" name="phone" id="phone" required>
+                        </div>
+                    </fieldset>
 
-                <fieldset>
-                    <div class="pass-container">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password" required>
-                    </div>
+                    <fieldset>
+                        <div class="pass-container">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
 
-                    <div class="confirm-container">
-                        <label for="confirm_pass">Confirm Password</label>
-                        <input type="password" name="confirm_pass" id="confirm_pass" required>
-                    </div>
-                </fieldset>
+                        <div class="confirm-container">
+                            <label for="confirm_pass">Confirm Password</label>
+                            <input type="password" name="confirm_pass" id="confirm_pass" required>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="buttons-container">
+                    <button type="submit">Create Account</button>
+                </div>
             </form>
         </div>
-        <div class="buttons-container">
-            <button type="submit">Create Account</button>
-        </div>
+
+        <p>Already have an account? <a href="#">Sign in</a></p>
     </div>
 </body>
 
